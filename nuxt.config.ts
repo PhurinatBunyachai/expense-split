@@ -7,5 +7,10 @@ export default defineNuxtConfig({
     "nuxt-lodash",
     "nuxt-icon"
   ],
+  
   css: ['~/assets/css/main.css'],
+
+  lodash: {
+    prefix: '_'
+  }
 })
